@@ -1,3 +1,5 @@
+# USE NODE 16.8.0 WHEN INSTALLING YARN, NEWER VERSIONS DONT WORK WITH THIS STRUCTURE
+
 # Playboy Front End Engineering Challenge
 
 Welcome and thank you for taking the time to complete the Playboy take-home challenge for our senior frontend engineer position
@@ -34,7 +36,7 @@ Here are the rules of this challenge.. you must:
 ## Styling Guidelines
 
 - Use a custom (non-Google) served font of your choosing
-- Use the following colors   
+- Use the following colors
 	- Page background: - ![#0D2436](https://via.placeholder.com/15/0D2436/000000?text=+) `#0D2436`
 	- Default/normal font color: ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF`
   - Hover font color: ![#CCCCCC](https://via.placeholder.com/15/CCCCCC/000000?text=+) `#CCCCCC`
