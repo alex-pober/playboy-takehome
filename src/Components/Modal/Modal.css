@@ -1,0 +1,14 @@
+.modal-close-button {
+  border-style: none;
+  background-color: transparent;
+  font-size: larger;
+  cursor: pointer;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+
+.modal-message {
+  display: flex;
+  justify-content: center;
+}

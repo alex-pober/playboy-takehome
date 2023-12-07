@@ -1,0 +1,91 @@
+.ballot {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 776px;
+}
+
+.ballotForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-title {
+  background-color: #666666;
+  height: 42px;
+  display: flex;
+}
+
+.category-title > span {
+  color: #FFFFFF;
+  margin: 1rem;
+}
+
+.nominee-list {
+  margin-block: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 1rem;
+
+  @media (max-width: 789px) {
+    display: flex;
+    justify-content: center
+  }
+}
+
+.nominee-button {
+  margin-top: 8px;
+  border: none;
+  color: white;
+  background-color: #9b9996;
+  height: 42px;
+  cursor: pointer;
+}
+
+.category-nominee {
+  padding-inline: 3rem;
+  border: 1px solid black;
+  background-color: #cfe2f4;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 350px;
+}
+
+.category-nominee:hover{
+  background-color: #009B86;
+  color: #CCCCCC;
+  cursor: pointer;
+}
+
+.category-nominee > span {
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-nominee-selected {
+  background-color: #009B86;
+  padding-inline: 3rem;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 350px;
+}
+
+.category-nominee-selected > span {
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+}
