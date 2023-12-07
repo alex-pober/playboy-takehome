@@ -46,7 +46,7 @@ const Ballot = () => {
         },
         body: JSON.stringify(voteData),
       });
-      console.log(response.status)
+
       if (response.ok) {
         setSubmissionMessage("SUCCESS")
         setModalOpen(true)

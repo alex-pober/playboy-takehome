@@ -240,7 +240,7 @@ app.use(bodyParser.json());
 const votedUsers = new Set();
 
 const checkIfVoted = (req, res, next) => {
-  const userId = req.body.userId; // Assuming you're using IP as a simple identifier
+  const userId = req.body.userId;
   console.log(votedUsers.has(userId))
 
   if (votedUsers.has(userId)) {
